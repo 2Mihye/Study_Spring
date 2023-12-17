@@ -9,6 +9,6 @@ public class StudyController {
     @GetMapping("study")
     public String Study(Model model){
         model.addAttribute("data", "hello~");
-        return "study";
+        return "study";  
     }
 }
