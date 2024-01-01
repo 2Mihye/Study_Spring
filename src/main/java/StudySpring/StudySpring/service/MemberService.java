@@ -8,12 +8,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-@Service
+
 public class MemberService { // cmd shift t 를 같이 누르면 test class 생성 단축키
     // private final MemberRepository memberRepository = new MemoryMemberRepository(); 테스트에서 서로 같은 레포지토리를 사용해야 하기 때문에 생성자부분 삭제
     private final MemberRepository memberRepository;
 
-    @Autowired
+
     public MemberService(MemberRepository memberRepository) { // 멤버레포지토리를 외부에서 넣어줄 수 있도록 constructor생성
         this.memberRepository = memberRepository;
     }
