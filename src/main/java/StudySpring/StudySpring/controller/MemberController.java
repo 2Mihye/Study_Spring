@@ -40,6 +40,6 @@ public class MemberController {
         return "members/memberList";
     }
 
-    // DB 설치
+    // DB 설치 H2
 
 }
